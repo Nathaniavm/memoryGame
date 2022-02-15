@@ -3,12 +3,8 @@ package exampleproject;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.AnchorPane;
 
 public class ExampleProjectController {
-    @FXML
-    private AnchorPane background;
-
     @FXML
     private TextField firstNumber, secondNumber, operator;
 
@@ -30,7 +26,7 @@ public class ExampleProjectController {
             this.result.setText(firstNumber.getText() + " " + operator.getText() + " " + secondNumber.getText() + " = "
                     + String.valueOf(result));
         } catch (NumberFormatException e) {
-            result.setText("Invalid number");
+            result.setText("Et eller begge tallene er ugyldige");
         }
     }
 
