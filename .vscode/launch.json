@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch ExampleProjectApp",
+      "request": "launch",
+      "mainClass": "exampleproject/exampleproject.ExampleProjectApp",
+      "projectName": "tdt4100_v2022_prosjekt_boilerplate"
+    },
+    {
+      "type": "java",
+      "name": "Launch GameApp",
+      "request": "launch",
+      "mainClass": "exampleproject/exampleproject.GameApp",
+      "projectName": "tdt4100_v2022_prosjekt_boilerplate"
+    },
+    {
+      "type": "java",
+      "name": "Launch GameApp",
+      "request": "launch",
+      "mainClass": "tdt4100_v2022_prosjekt_boilerplate/exampleproject.GameApp",
+      "projectName": "tdt4100_v2022_prosjekt_boilerplate"
+    },
+    {
+      "type": "java",
+      "name": "Launch GameApp",
+      "request": "launch",
+      "mainClass": "exampleproject.GameApp",
+      "projectName": "tdt4100_v2022_prosjekt_boilerplate"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "vmArgs": "--add-modules javafx.fxml",
+      "mainClass": "exampleproject.GameApp",
+      "projectName": "exampleproject"
+    }
+  ]
+}
