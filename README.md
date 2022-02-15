@@ -8,7 +8,7 @@ Vi har opprettet et eksempelprosjekt her, som ment for at dere skal kunne komme 
 
 Lag en ny mappe i `src/main/java/` som er deres prosjekt. Opprett en startsfil for appen, slik som [ExampleProjectApp.java](src/main/java/ExampleProjectApp.java) og en kontroller som [ExampleProjectController.java](src/main/java/ExampleProjectController.java) i denne nye mappen. Lag så en mappe i `src/main/resources` med samme navn som prosjektet deres og et view som [App.fxml](src/main/resources/exampleproject/App.fxml) i denne nye mappen.
 
-**Eventuelt**: Endre navn på filer og mapper fra "ExampleProject" til deres prosjektnavn. Dersom du gjør dette, må du også endre fra `open module exampleproject` til `open module <prosjektnavn>` i [module-info.java](src/main/java/module-info.java) og fra "exampleproject" til deres prosjektnavn på linje 6 i [pom.xml](pom.xml).
+**Eventuelt**: Endre navn på filer og mapper fra "ExampleProject" til deres prosjektnavn.
 
 ## Litt rask info
 
@@ -63,7 +63,7 @@ I tillegg til alt dette er det laget en liten [eksempel testfil](src/test/java/e
 6. Opprett en FXML-fil, slik som [App.fxml](src/main/resources/App.fxml) i deres nye prosjekt-mappe i `src/main/resources/`.
 7. **HUSK** å legge inn `fx:controller='<deres_prosjekt>.<deres_kontroller>'` på det aller ytterste elementet i den nye FXML-filen deres, ellers vil ikke appen starte.
 
-**Eventuelt**: Endre navn på filer og mapper fra "ExampleProject" til deres prosjektnavn. Dersom du gjør dette, må du også endre fra `open module exampleproject` til `open module <prosjektnavn>` i [module-info.java](src/main/java/module-info.java) og fra "exampleproject" til deres prosjektnavn på linje 6 i [pom.xml](pom.xml).
+**Eventuelt**: Endre navn på filer og mapper fra "ExampleProject" til deres prosjektnavn.
 
 ## Reminder av nøkkelpunkter
 
