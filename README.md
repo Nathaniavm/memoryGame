@@ -6,7 +6,7 @@ Vi har opprettet et eksempelprosjekt her, som ment for at dere skal kunne komme 
 
 ## TL;DR
 
-Lag en ny mappe i `src/main/java/` som er deres prosjekt. Opprett en startsfil for appen, slik som [ExampleProjectApp.java](src/main/java/ExampleProjectApp.java) og en kontroller som [ExampleProjectController.java](src/main/java/ExampleProjectController.java) i denne nye mappen. Lag så en mappe i `src/main/resources` med samme navn som prosjektet deres og et view som [App.fxml](src/main/resources/exampleproject/App.fxml) i denne nye mappen.
+Lag en ny mappe i `src/main/java/` som er deres prosjekt. Opprett en startsfil for appen, slik som [ExampleProjectApp.java](src/main/java/exampleproject/ExampleProjectApp.java) og en kontroller som [ExampleProjectController.java](src/main/java/exampleproject/ExampleProjectController.java) i denne nye mappen. Lag så en mappe i `src/main/resources` med samme navn som prosjektet deres og et view som [App.fxml](src/main/resources/exampleproject/App.fxml) i denne nye mappen.
 
 **Eventuelt**: Endre navn på filer og mapper fra "ExampleProject" til deres prosjektnavn.
 
@@ -58,9 +58,9 @@ I tillegg til alt dette er det laget en liten [eksempel testfil](src/test/java/e
 1. Inviter gruppemedlemmene dine til dette repoet, og gi de minst en `Developer`-rolle (helst `Maintainer`)
 2. Klon dette prosjektet et sted på maskinen deres (ikke inne i Students-mappen, men gjerne i samme mappe denne ligger i).
 3. Lag en ny mappe i `src/main/java/` som er deres prosjekt.
-4. Opprett en startsfil for appen deres, slik som [ExampleProjectApp.java](src/main/java/ExampleProjectApp.java) og en kontroller som [ExampleProjectController.java](src/main/java/ExampleProjectController.java) i deres nye prosjekt-mappe.
+4. Opprett en startsfil for appen deres, slik som [ExampleProjectApp.java](src/main/java/exampleproject/ExampleProjectApp.java) og en kontroller som [ExampleProjectController.java](src/main/java/exampleproject/ExampleProjectController.java) i deres nye prosjekt-mappe.
 5. Opprett en ny mappe i `src/main/resources/` som er deres prosjekt.
-6. Opprett en FXML-fil, slik som [App.fxml](src/main/resources/App.fxml) i deres nye prosjekt-mappe i `src/main/resources/`.
+6. Opprett en FXML-fil, slik som [App.fxml](src/main/resources/exampleproject/App.fxml) i deres nye prosjekt-mappe i `src/main/resources/`.
 7. **HUSK** å legge inn `fx:controller='<deres_prosjekt>.<deres_kontroller>'` på det aller ytterste elementet i den nye FXML-filen deres, ellers vil ikke appen starte.
 
 **Eventuelt**: Endre navn på filer og mapper fra "ExampleProject" til deres prosjektnavn.
