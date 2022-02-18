@@ -57,6 +57,7 @@ I tillegg til alt dette er det laget en liten [eksempel testfil](src/test/java/e
 
 1. Inviter gruppemedlemmene dine til dette repoet, og gi de minst en `Developer`-rolle (helst `Maintainer`)
 2. Klon dette prosjektet et sted på maskinen deres (ikke inne i Students-mappen, men gjerne i samme mappe denne ligger i).
+    - Dersom du har aktivert 2FA på GitLab-kontoen din og blir bedt om innlogging ved kloning/pushing av/til repoet må du opprette en [personal access token](https://gitlab.stud.idi.ntnu.no/-/profile/personal_access_tokens) som har "read_repository" og "write_repository"-rettigheter. Deretter kan du logge inn med ditt feidebrukernavn som brukernavn og denne tokenen som blir laget til deg som passord. En guide for hvordan opprette personal access token finnes [her](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token).
 3. Lag en ny mappe i `src/main/java/` som er deres prosjekt.
 4. Opprett en startsfil for appen deres, slik som [ExampleProjectApp.java](src/main/java/exampleproject/ExampleProjectApp.java) og en kontroller som [ExampleProjectController.java](src/main/java/exampleproject/ExampleProjectController.java) i deres nye prosjekt-mappe.
 5. Opprett en ny mappe i `src/main/resources/` som er deres prosjekt.
