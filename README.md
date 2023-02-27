@@ -1,6 +1,6 @@
-# Skjelettprosjekt for TDT4100 prosjekt V2022
+# Skjelettprosjekt for TDT4100 prosjekt V2023
 
-Dette repoet er et skjelettprosjekt for TDT4100 prosjektet våren 2022.
+Dette repoet er et skjelettprosjekt for TDT4100 prosjektet våren 2023.
 
 Vi har opprettet et eksempelprosjekt her, som ment for at dere skal kunne komme raskt igang med deres eget prosjekt.
 
@@ -70,19 +70,17 @@ I tillegg til alt dette er det laget en liten [eksempel testfil](src/test/java/e
 
 | Nøkkelpunkt                              | Beskrivelse                             |
 | ---------------------------------------- | --------------------------------------- |
-| Andel av karakter                        | 35% (appen) + 15% (dokumentasjon/teori) |
-| Frist for godkjenning av prosjektplan    | 25. februar                             |
-| Innleveringsfrist                        | 29. april                               |
-| Demonstrasjonsfrist hos læringsassistent | 03. mai                                 |
+| Innleveringsfrist                        | 14. april                               |
+| Demonstrasjonsfrist hos læringsassistent | 21. mai                                 |
 | Gruppestørrelse                          | 1 eller 2 personer                      |
 
 ### Anbefalte perioder å jobbe med prosjektet
 
 | Uke   | Fra  | Til  | Beskrivelse                                 |
 | ----- | ---- | ---- | ------------------------------------------- |
-| 7-8   | 14/2 | 25/2 | Grunnklasser og brukergrensesnitt           |
-| 11    | 14/3 | 18/3 | Lagring of filhåndtering                    |
-| 14    | 04/4 | 08/4 | Testing                                     |
-| 16-17 | 19/4 | 29/4 | Fullføre appen med tilhørende dokumentasjon |
+| 12    | 20/3 | 24/2 | Grunnklasser og brukergrensesnitt           |
+| 13    | 27/3 | 31/3 | Lagring of filhåndtering                    |
+| 14    |      |      | Påske                                       |
+| 15    | 10/4 | 14/4 | Fullføre appen med tilhørende dokumentasjon |
 
 **_LYKKE TIL_**
